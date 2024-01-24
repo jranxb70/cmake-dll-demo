@@ -22,5 +22,10 @@ int main(int argc, char *argv[])
     fprintf(stdout,"The sum of %g and %g is %g\n", inputValue, inputValue, sumValue);
     fprintf(stdout,"The square root of %g is %g\n", inputValue, sqrtValue);
 
+    int var = 9;
+
+    int tuppu = testFunction(var);
+    fprintf(stdout, "Tumpelo: %d\n", tuppu);
+
     return 0;
 }
